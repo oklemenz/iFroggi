@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <device id="retina3_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
+            <connections>
+                <outlet property="delegate" destination="3" id="4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <customObject id="3" userLabel="iFroggi App Delegate" customClass="iFroggiAppDelegate">
+            <connections>
+                <outlet property="copyrightViewController" destination="59" id="159"/>
+                <outlet property="highscoreViewController" destination="99" id="160"/>
+                <outlet property="lakeViewController" destination="10" id="57"/>
+                <outlet property="levelViewController" destination="71" id="161"/>
+                <outlet property="menuViewController" destination="150" id="162"/>
+            </connections>
+        </customObject>
+        <viewController autoresizesArchivedViewToFullSize="NO" id="59" customClass="CopyrightViewController">
+            <imageView key="view" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="center" image="logo.png" id="60" customClass="CopyrightView">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <connections>
+                    <outlet property="copyrightViewController" destination="59" id="61"/>
+                </connections>
+            </imageView>
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <size key="freeformSize" width="480" height="320"/>
+            <point key="canvasLocation" x="-324" y="-201"/>
+        </viewController>
+        <viewController autoresizesArchivedViewToFullSize="NO" id="150" customClass="MenuViewController">
+            <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="151">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" misplaced="YES" image="splash.png" id="154">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" alpha="0.0" contentMode="center" image="menu.png" id="153" customClass="MenuView">
+                        <rect key="frame" x="223" y="68" width="255" height="252"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <outlet property="aNewGameButtonView" destination="166" id="cHa-xT-YIq"/>
+                            <outlet property="highscoreButtonView" destination="169" id="202"/>
+                            <outlet property="menuViewController" destination="150" id="158"/>
+                            <outlet property="optionsButtonView" destination="168" id="204"/>
+                            <outlet property="resumeGameButtonView" destination="167" id="205"/>
+                        </connections>
+                    </imageView>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" alpha="0.0" contentMode="center" image="options.png" id="152" customClass="OptionView">
+                        <rect key="frame" x="218" y="69" width="264" height="250"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <outlet property="backButtonView" destination="170" id="206"/>
+                            <outlet property="menuViewController" destination="150" id="157"/>
+                        </connections>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="new_game_btn_p.png" id="166">
+                        <rect key="frame" x="270" y="110" width="161" height="34"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="resume_game_btn_p.png" id="167">
+                        <rect key="frame" x="248" y="156" width="204" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="options_btn_p.png" id="168">
+                        <rect key="frame" x="290" y="201" width="121" height="34"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="highscore_btn_p.png" id="169">
+                        <rect key="frame" x="275" y="245" width="151" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="back_btn_p.png" id="170">
+                        <rect key="frame" x="390" y="286" width="85" height="31"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            </view>
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <size key="freeformSize" width="480" height="320"/>
+            <connections>
+                <outlet property="menuView" destination="153" id="156"/>
+                <outlet property="optionView" destination="152" id="155"/>
+            </connections>
+            <point key="canvasLocation" x="-324" y="235"/>
+        </viewController>
+        <viewController autoresizesArchivedViewToFullSize="NO" id="71" customClass="LevelViewController">
+            <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="72" customClass="LevelView">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" misplaced="YES" image="lake.png" id="87">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="level.png" id="84">
+                        <rect key="frame" x="146" y="3" width="188" height="66"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="size.png" id="76">
+                        <rect key="frame" x="318" y="282" width="105" height="38"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="speed.png" id="86">
+                        <rect key="frame" x="-4" y="280" width="152" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="center" image="level2.png" id="85" userLabel="Level Image 2">
+                        <rect key="frame" x="102" y="120" width="276" height="165"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="level1.png" id="83" userLabel="Level Image 1">
+                        <rect key="frame" x="102" y="120" width="276" height="165"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="menu_btn.png" id="75">
+                        <rect key="frame" x="197" y="284" width="86" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <view opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" id="82" userLabel="Level Number 2" customClass="NumberView">
+                        <rect key="frame" x="0.0" y="56" width="480" height="64"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" id="81" userLabel="Level Number 1" customClass="NumberView">
+                        <rect key="frame" x="0.0" y="56" width="480" height="64"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" id="79" userLabel="Speed 2" customClass="NumberView">
+                        <rect key="frame" x="134" y="271" width="63" height="49"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" id="80" userLabel="Speed 1" customClass="NumberView">
+                        <rect key="frame" x="134" y="271" width="63" height="49"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" id="77" userLabel="Size 2" customClass="NumberView">
+                        <rect key="frame" x="419" y="271" width="60" height="49"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" id="78" userLabel="Size 1" customClass="NumberView">
+                        <rect key="frame" x="419" y="271" width="60" height="49"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="arrow_left.png" id="74">
+                        <rect key="frame" x="20" y="133" width="42" height="53"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="arrow_right.png" id="73">
+                        <rect key="frame" x="423" y="133" width="42" height="53"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="menu_btn_p.png" id="178">
+                        <rect key="frame" x="191" y="282" width="98" height="34"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <connections>
+                    <outlet property="arrowLeft" destination="74" id="218"/>
+                    <outlet property="arrowRight" destination="73" id="219"/>
+                    <outlet property="levelViewController" destination="71" id="89"/>
+                    <outlet property="menuButtonView" destination="178" id="212"/>
+                </connections>
+            </view>
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <size key="freeformSize" width="480" height="320"/>
+            <connections>
+                <outlet property="leftArrow" destination="74" id="88"/>
+                <outlet property="levelImage1" destination="83" id="91"/>
+                <outlet property="levelImage2" destination="85" id="95"/>
+                <outlet property="levelNumber1" destination="81" id="93"/>
+                <outlet property="levelNumber2" destination="82" id="96"/>
+                <outlet property="rightArrow" destination="73" id="90"/>
+                <outlet property="sizeNumber1" destination="78" id="94"/>
+                <outlet property="sizeNumber2" destination="77" id="92"/>
+                <outlet property="speedNumber1" destination="80" id="97"/>
+                <outlet property="speedNumber2" destination="79" id="98"/>
+            </connections>
+            <point key="canvasLocation" x="316" y="-201"/>
+        </viewController>
+        <viewController autoresizesArchivedViewToFullSize="NO" wantsFullScreenLayout="YES" id="99" customClass="HighscoreViewController">
+            <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="100">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" contentMode="center" misplaced="YES" image="highscore.png" id="102">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                    <view opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" id="101" customClass="HighscoreView">
+                        <rect key="frame" x="77" y="0.0" width="317" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="103" userLabel="Enter Name View" customClass="EnterNameView">
+                                <rect key="frame" x="36" y="35" width="252" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" id="109" userLabel="Black View">
+                                        <rect key="frame" x="0.0" y="3" width="252" height="120"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="108" customClass="NumberView">
+                                        <rect key="frame" x="0.0" y="29" width="252" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="your_score.png" id="105">
+                                        <rect key="frame" x="42" y="2" width="172" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" contentMode="center" misplaced="YES" image="enter_your_name.png" id="106">
+                                        <rect key="frame" x="-12" y="98" width="279" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" misplaced="YES" image="ok_btn.png" id="104">
+                                        <rect key="frame" x="199" y="64" width="48" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="107">
+                                        <rect key="frame" x="5" y="63" width="192" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="101" id="115"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="7.4505799999999999e-10" y="0.0" width="1" height="1"/>
+                                <connections>
+                                    <outlet property="blackView" destination="109" id="110"/>
+                                    <outlet property="highscoreView" destination="101" id="116"/>
+                                    <outlet property="scoreView" destination="108" id="111"/>
+                                    <outlet property="textField" destination="107" id="114"/>
+                                </connections>
+                            </view>
+                            <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="hs_back_btn_p.png" id="180">
+                                <rect key="frame" x="245" y="276" width="86" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="hs_clear_btn_p.png" id="181">
+                                <rect key="frame" x="-22" y="262" width="110" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <outlet property="backButtonView" destination="180" id="209"/>
+                            <outlet property="clearButtonView" destination="181" id="208"/>
+                            <outlet property="enterNameView" destination="103" id="112"/>
+                            <outlet property="highscoreViewController" destination="99" id="113"/>
+                            <outlet property="okButtonView" destination="104" id="207"/>
+                        </connections>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            </view>
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <size key="freeformSize" width="480" height="320"/>
+            <connections>
+                <outlet property="highscoreView" destination="101" id="117"/>
+            </connections>
+            <point key="canvasLocation" x="-324" y="-629"/>
+        </viewController>
+        <viewController autoresizesArchivedViewToFullSize="NO" id="10" customClass="LakeViewController">
+            <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="32" userLabel="Game View">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" id="28" customClass="LakeView">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <outlet property="deadView" destination="123" id="136"/>
+                            <outlet property="gameBarView" destination="36" id="37"/>
+                            <outlet property="gameOverView" destination="124" id="137"/>
+                            <outlet property="gameView" destination="32" id="58"/>
+                            <outlet property="goView" destination="122" id="138"/>
+                            <outlet property="levelDoneView" destination="125" id="139"/>
+                            <outlet property="levelNumberView" destination="121" id="140"/>
+                            <outlet property="levelView" destination="120" id="141"/>
+                            <outlet property="outOfTimeView" destination="127" id="144"/>
+                            <outlet property="pauseButtonView" destination="119" id="143"/>
+                            <outlet property="pauseView" destination="130" id="145"/>
+                            <outlet property="youLostView" destination="128" id="146"/>
+                            <outlet property="youWonView" destination="129" id="147"/>
+                        </connections>
+                    </view>
+                    <view opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="36" customClass="GameBarView">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="center" misplaced="YES" image="pause_btn.png" id="119" userLabel="Pause Button">
+                        <rect key="frame" x="383" y="287" width="105" height="32"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="level.png" id="120">
+                        <rect key="frame" x="120" y="80" width="240" height="59"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <view hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="121" customClass="NumberView">
+                        <rect key="frame" x="20" y="80" width="440" height="59"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="go.png" id="122">
+                        <rect key="frame" x="172" y="80" width="135" height="60"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="dead.png" id="123">
+                        <rect key="frame" x="132" y="80" width="216" height="60"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="game_over.png" id="124">
+                        <rect key="frame" x="30" y="80" width="419" height="60"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="level_done.png" id="125">
+                        <rect key="frame" x="38" y="80" width="403" height="60"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="level_done.png" id="126">
+                        <rect key="frame" x="38" y="80" width="403" height="60"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="out_of_time.png" id="127">
+                        <rect key="frame" x="10" y="80" width="460" height="60"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="you_lost.png" id="128">
+                        <rect key="frame" x="65" y="80" width="350" height="63"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="you_won.png" id="129">
+                        <rect key="frame" x="75" y="83" width="330" height="60"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <view hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" id="130" customClass="PauseView">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" id="132" userLabel="Black View">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="options2.png" id="131" userLabel="Options">
+                                <rect key="frame" x="91" y="70" width="287" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" misplaced="YES" image="pause.png" id="133" userLabel="Pause">
+                                <rect key="frame" x="130" y="8" width="207" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="continue_btn_p.png" id="213">
+                                <rect key="frame" x="223" y="274" width="143" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="exit_btn_p.png" id="214">
+                                <rect key="frame" x="96" y="272" width="97" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <outlet property="blackView" destination="132" id="134"/>
+                            <outlet property="continueButtonView" destination="213" id="215"/>
+                            <outlet property="exitButtonView" destination="214" id="216"/>
+                            <outlet property="lakeView" destination="28" id="148"/>
+                            <outlet property="pauseTitleView" destination="133" id="135"/>
+                        </connections>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            </view>
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <size key="freeformSize" width="480" height="320"/>
+            <connections>
+                <outlet property="lakeView" destination="28" id="30"/>
+            </connections>
+            <point key="canvasLocation" x="316" y="-629"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="arrow_left.png" width="39" height="51"/>
+        <image name="arrow_right.png" width="39" height="51"/>
+        <image name="back_btn_p.png" width="76" height="31"/>
+        <image name="continue_btn_p.png" width="131" height="30"/>
+        <image name="dead.png" width="210" height="53"/>
+        <image name="enter_your_name.png" width="252" height="32"/>
+        <image name="exit_btn_p.png" width="73" height="30"/>
+        <image name="game_over.png" width="415" height="53"/>
+        <image name="go.png" width="135" height="53"/>
+        <image name="highscore.png" width="480" height="320"/>
+        <image name="highscore_btn_p.png" width="151" height="37"/>
+        <image name="hs_back_btn_p.png" width="82" height="38"/>
+        <image name="hs_clear_btn_p.png" width="88" height="50"/>
+        <image name="lake.png" width="480" height="320"/>
+        <image name="level.png" width="192" height="55"/>
+        <image name="level1.png" width="263" height="168"/>
+        <image name="level2.png" width="263" height="168"/>
+        <image name="level_done.png" width="407" height="55"/>
+        <image name="logo.png" width="480" height="320"/>
+        <image name="menu.png" width="261" height="244"/>
+        <image name="menu_btn.png" width="85" height="31"/>
+        <image name="menu_btn_p.png" width="85" height="31"/>
+        <image name="new_game_btn_p.png" width="159" height="31"/>
+        <image name="ok_btn.png" width="43" height="31"/>
+        <image name="options.png" width="261" height="246"/>
+        <image name="options2.png" width="261" height="245"/>
+        <image name="options_btn_p.png" width="120" height="36"/>
+        <image name="out_of_time.png" width="456" height="53"/>
+        <image name="pause.png" width="209" height="53"/>
+        <image name="pause_btn.png" width="90" height="31"/>
+        <image name="resume_game_btn_p.png" width="201" height="32"/>
+        <image name="size.png" width="106" height="34"/>
+        <image name="speed.png" width="134" height="38"/>
+        <image name="splash.png" width="480" height="320"/>
+        <image name="you_lost.png" width="354" height="55"/>
+        <image name="you_won.png" width="335" height="54"/>
+        <image name="your_score.png" width="177" height="27"/>
+    </resources>
+</document>

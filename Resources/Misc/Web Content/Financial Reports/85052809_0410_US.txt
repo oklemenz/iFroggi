@@ -1,0 +1,4 @@
+Start Date	End Date	UPC	ISRC	Vendor Identifier	Quantity	Partner Share	Extended Partner Share	Partner Share Currency	Sales or Return	Apple Identifier	Artist/Show/Developer	Title	Label/Studio/Network/Developer	Grid	Product Type Identifier	ISAN/Other Identifier	Country Of Sale	Pre-order Flag	Promo Code	Customer Price	Customer Currency
+03/28/2010	05/01/2010			iFroggi	15	0.70	10.50	USD	S	365360531	Oliver Klemenz	iFroggi			1		US			0.99	USD
+03/28/2010	05/01/2010			iFroggi	31	0.00	0.00	USD	S	365360531	Oliver Klemenz	iFroggi			1		US		CR	0.00	USD
+Total_Amount:10.5

@@ -1,0 +1,33 @@
+Provider	Provider Country	Vendor Identifier	UPC	ISRC	Artist / Show	Title / Episode / Season	Label/Studio/Network	Product Type Identifier	Units	Royalty Price	Begin Date	End Date	Customer Currency	Country Code	Royalty Currency	Preorder	Season Pass	ISAN	Apple Identifier	Customer Price	CMA	Asset/Content Flavor	Vendor Offer Code	Grid	Promo Code	Parent Identifier
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	7	1	0	07/12/2010	07/18/2010	EUR	DE	EUR	 	 	 	365360531	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	27	0	07/12/2010	07/18/2010	AUD	AU	AUD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	USD	ID	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	33	0	07/12/2010	07/18/2010	EUR	DE	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	2	0	07/12/2010	07/18/2010	USD	TH	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	3	0	07/12/2010	07/18/2010	EUR	FR	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	EUR	ES	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	USD	MK	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	256	0	07/12/2010	07/18/2010	USD	US	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	USD	RU	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	USD	CO	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	2	0	07/12/2010	07/18/2010	SEK	SE	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	2	0	07/12/2010	07/18/2010	EUR	NL	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	25	0	07/12/2010	07/18/2010	CAD	CA	CAD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	USD	PH	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	EUR	HU	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	3	0	07/12/2010	07/18/2010	USD	SA	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	3	0	07/12/2010	07/18/2010	EUR	LU	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	2	0	07/12/2010	07/18/2010	EUR	IT	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	MXN	MX	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	USD	KW	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	1	.7	07/12/2010	07/18/2010	USD	US	USD	 	 	 	365360531	.99	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	USD	IN	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	2	0	07/12/2010	07/18/2010	USD	EG	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	2	0	07/12/2010	07/18/2010	USD	CN	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	EUR	AT	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	USD	SG	USD	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	1	.48	07/12/2010	07/18/2010	EUR	DE	EUR	 	 	 	365360531	.79	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	49	0	07/12/2010	07/18/2010	GBP	GB	GBP	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	1	0	07/12/2010	07/18/2010	DKK	DK	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	4	0	07/12/2010	07/18/2010	CHF	CH	EUR	 	 	 	371181741	0	 	 	 	 	 	 
+APPLE	US	iFroggiFree	 	 	Oliver Klemenz	iFroggi Free	 	1	2	0	07/12/2010	07/18/2010	USD	EC	USD	 	 	 	371181741	0	 	 	 	 	 	 

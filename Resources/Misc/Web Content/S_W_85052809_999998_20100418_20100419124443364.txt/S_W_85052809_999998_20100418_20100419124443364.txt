@@ -1,0 +1,11 @@
+Provider	Provider Country	Vendor Identifier	UPC	ISRC	Artist / Show	Title / Episode / Season	Label/Studio/Network	Product Type Identifier	Units	Royalty Price	Begin Date	End Date	Customer Currency	Country Code	Royalty Currency	Preorder	Season Pass	ISAN	Apple Identifier	Customer Price	CMA	Asset/Content Flavor	Vendor Offer Code	Grid	Promo Code	Parent Identifier
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	1	.7	04/12/2010	04/18/2010	USD	CN	USD	 	 	 	365360531	.99	 	 	 	 	 	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	27	.48	04/12/2010	04/18/2010	EUR	DE	EUR	 	 	 	365360531	.79	 	 	 	 	 	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	1	.76	04/12/2010	04/18/2010	AUD	AU	AUD	 	 	 	365360531	1.19	 	 	 	 	 	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	11	0	04/12/2010	04/18/2010	USD	US	USD	 	 	 	365360531	0	 	 	 	 	CR-RW	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	1	.48	04/12/2010	04/18/2010	CHF	CH	EUR	 	 	 	365360531	1.1	 	 	 	 	 	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	1	.48	04/12/2010	04/18/2010	EUR	FR	EUR	 	 	 	365360531	.79	 	 	 	 	 	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	1	.7	04/12/2010	04/18/2010	USD	RU	USD	 	 	 	365360531	.99	 	 	 	 	 	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	10	.7	04/12/2010	04/18/2010	USD	US	USD	 	 	 	365360531	.99	 	 	 	 	 	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	1	.7	04/12/2010	04/18/2010	USD	AE	USD	 	 	 	365360531	.99	 	 	 	 	 	 
+APPLE	US	iFroggi	 	 	Oliver Klemenz	iFroggi	 	1	1	.7	04/12/2010	04/18/2010	CAD	CA	CAD	 	 	 	365360531	.99	 	 	 	 	 	 
