@@ -1,4 +1,4 @@
-# Puzzle-15
+# iFroggi
 
 Control the cute frog iFroggi across the lake jumping from water lily pad to water lily pad by simply swiping on the iPhone multi-touch display.
 
