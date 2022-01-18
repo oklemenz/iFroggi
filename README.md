@@ -8,4 +8,4 @@ Catch a bunch of various objects like flies, butterflies, lady bugs, coins, diam
 
 # Download
 
-- iOS: https://apps.apple.com/us/app/ifroggi/id365360531?mt=8
+- App Store: https://apps.apple.com/us/app/ifroggi/id365360531?mt=8
